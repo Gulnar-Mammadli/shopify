@@ -1,6 +1,7 @@
 import "./Item.css";
 
 type Props = {
+  id: number;
   image: string;
   name: string;
   new_price: number;
