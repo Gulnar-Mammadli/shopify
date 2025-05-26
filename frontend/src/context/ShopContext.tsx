@@ -7,7 +7,7 @@ export type Product = {
   name: string;
   new_price: number;
   old_price: number;
-  category: string;
+  category?: string;
 };
 
 type ShopContextType = {
